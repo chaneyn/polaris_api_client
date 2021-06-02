@@ -64,7 +64,9 @@ python polaris_api_example.py
 * The units of hb and alpha are log10(kPa) and log10(kPa-1) respectively. 
 
 **Citation**
+
 Chaney, N.W., Minasny, B., Herman, J.D., Nauman, T.W., Brungard, C.W., Morgan, C.L., McBratney, A.B., Wood, E.F. and Yimam, Y., 2019. POLARIS soil properties: 30‐m probabilistic maps of soil properties over the contiguous United States. Water Resources Research, 55(4), pp.2916-2938.
 
 **License**
+
 POLARIS is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
