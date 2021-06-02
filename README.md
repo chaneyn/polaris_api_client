@@ -31,12 +31,12 @@ cd ..
 python polaris_api_example.py
 ```
 
-## POLARIS soil properties general information** 
+## POLARIS soil properties general information 
 
-*Spatial resolution*
+**Spatial resolution**
 1 arcsec (~30 meters)
  
-Variable id - Description, Units
+**Variable id - Description, Units**
 silt - silt percentage, %
 sand - sand percentage, %
 clay - clay percentage, %
@@ -51,7 +51,7 @@ hb - bubbling pressure (brooks-corey), log10(kPa)
 n - measure of the pore size distribution (van genuchten), N/A
 alpha - scale parameter inversely proportional to mean pore diameter (van genuchten), log10(kPa-1)
 
-#Layers - Depth from surface
+**Layers - Depth from surface**
 1. 0_5 - 0-5 cm
 2. 5_15 - 5-15 cm
 3. 15_30 - 15-30 cm
@@ -59,12 +59,12 @@ alpha - scale parameter inversely proportional to mean pore diameter (van genuch
 5. 60_100 - 60-100 cm
 6. 100_100 - 100-200 cm
 
-#Other information
+**Other information**
 *The variables hb, alpha, ksat, om are in log10 space.  
 *The units of hb and alpha are log10(kPa) and log10(kPa-1) respectively. 
 
-#Citation
+**Citation**
 Chaney, N.W., Minasny, B., Herman, J.D., Nauman, T.W., Brungard, C.W., Morgan, C.L., McBratney, A.B., Wood, E.F. and Yimam, Y., 2019. POLARIS soil properties: 30‐m probabilistic maps of soil properties over the contiguous United States. Water Resources Research, 55(4), pp.2916-2938.
 
-#License
+**License**
 POLARIS is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
