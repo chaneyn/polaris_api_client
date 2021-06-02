@@ -1,5 +1,4 @@
 import polaris_api_client
-
 minlon = -90.202
 minlat = 43.201
 maxlon = -90.201

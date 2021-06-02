@@ -8,7 +8,5 @@ setup(name='polaris_api_client',
       author='Nathaniel W. Chaney',
       author_email='nathaniel.chaney@duke.edu',
       license='MIT',
-      packages=['polaris_api_client',],
-      #package_data={'neurotheta':['*.txt'],},
-      include_package_data=True,
+      py_modules=['polaris_api_client',]
       )
