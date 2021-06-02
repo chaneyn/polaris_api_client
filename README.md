@@ -33,7 +33,10 @@ python polaris_api_example.py
 
 **POLARIS soil properties general information** 
 
-#Variable - Description,Units
+#Spatial resolution
+1 arcsec (~30 meters)
+ 
+#Variable id - Description, Units
 silt - silt percentage, %
 sand - sand percentage, %
 clay - clay percentage, %
@@ -48,25 +51,20 @@ hb - bubbling pressure (brooks-corey), log10(kPa)
 n - measure of the pore size distribution (van genuchten), N/A
 alpha - scale parameter inversely proportional to mean pore diameter (van genuchten), log10(kPa-1)
 
-#Depth from surface
-1. 0-5 cm
-2. 5-15 cm
-3. 15-30 cm
-4. 30-60 cm
-5. 60-100 cm
-6. 100-200 cm
+#Layers - Depth from surface
+1. 0_5 - 0-5 cm
+2. 5_15 - 5-15 cm
+3. 15_30 - 15-30 cm
+4. 30_60 - 30-60 cm
+5. 60_100 - 60-100 cm
+6. 100_100 - 100-200 cm
 
-#Statistics provided per layer and variable:
-1. mean - Arithmetic mean
-1. mode - Mode
-1. p50 - Median
-1. p5 - 5th percentile
-1. p95 - 95th percentile
+#Other information
+*The variables hb, alpha, ksat, om are in log10 space.  
+*The units of hb and alpha are log10(kPa) and log10(kPa-1) respectively. 
 
-#Resolutions
-1. 1 arcsec (~30 meters)
+#Citation
+Chaney, N.W., Minasny, B., Herman, J.D., Nauman, T.W., Brungard, C.W., Morgan, C.L., McBratney, A.B., Wood, E.F. and Yimam, Y., 2019. POLARIS soil properties: 30‐m probabilistic maps of soil properties over the contiguous United States. Water Resources Research, 55(4), pp.2916-2938.
 
-#Notes
-*05/01/2019 - The variables hb, alpha, ksat, om are in log10 space. 
-*05/01/2019 - Due to file size constraints, the 1 arcsec database is split into 1x1 degree tiffs. Each variable/layer/statistic has its own virtual raster that acts as the "glue" of all the smaller 1x1 degree chunks. For more information on virtual rasters see https://www.gdal.org/gdal_vrttut.html. 
-*06/02/2019 - The variables hb and alpha were originally reported to have the units of log10(cm) and log10(cm-1) respectively. This was a typo. The correct units are log10(kPa) and log10(kPa-1) respectively. 
+#License
+POLARIS is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
