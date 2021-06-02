@@ -31,12 +31,12 @@ cd ..
 python polaris_api_example.py
 ```
 
-**POLARIS soil properties general information** 
+## POLARIS soil properties general information** 
 
-#Spatial resolution
+*Spatial resolution*
 1 arcsec (~30 meters)
  
-#Variable id - Description, Units
+Variable id - Description, Units
 silt - silt percentage, %
 sand - sand percentage, %
 clay - clay percentage, %
